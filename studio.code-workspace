@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Web_Studio/images"
+		},
+		{
+			"path": "../Web_Studio/Web_Studio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "studio",
+		"liveServer.settings.port": 5501
+	}
+}

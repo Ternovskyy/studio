@@ -399,6 +399,19 @@ padding-top: 94px;
     color: #757575;
 }
 
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.portfolio-list>.item {
+ flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-title {
+margin-top: 20px;
+}
 
 /* Футер */
 .footer {

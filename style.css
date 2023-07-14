@@ -152,6 +152,9 @@ a {
     background-color: #2f303a;
     background-image: url(./images/hero_backgroud.png);
     background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
     background-size: auto;
     padding-top: 200px;
     padding-bottom: 200px;

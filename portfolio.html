@@ -42,7 +42,7 @@
            
             <ul class="portfolio-list list">
                 <li class="item">
-                    <a href="portfolio-link">
+                    <a href="" class="portfolio-link">
                         <div class="portfolio-box">
                             <div class="portfolio-overlay">
                                <p class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</p>
@@ -113,21 +113,79 @@
              </ul>
             </div>
         </section>
-    </main>
-    <!-- footer main -->
+           <!-- Футер -->
     <footer class="footer">
         <div class="container">
-            <nav><a href="/" class="logo"><span class="logo-ft-web">Web</span><span
-                        class="logo-footer link">Studio</span></a></nav>
-            <address class="address">
-                <a class="address link" href="https://goo.gl/maps/4LQCTVAEAGvyDWkp7">м. Київ, пр-т Лесі Українки,
-                    26</a>
-            </address>
-            <ul class="list">
-                <li> <a class="footer-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li> <a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+            <div class="widget-blok">
+                <nav><a href="/" class="logo"><span class="span-logo">Web</span><span
+                            class="span-footer link">Studio</span></a>
+                </nav>
+                <address>
+                    <a href="https://goo.gl/maps/4LQCTVAEAGvyDWkp7" class="address link">м. Київ, пр-т Лесі Українки,
+                        26</a>
+                </address>
+                <ul class="list">
+                    <li><a href="mailto:info@devstudio.com" class="footer-contakt link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="footer-contakt link">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+            <div class="widget-blok">
+                <h3 class="footer-title">приєднуйтесь</h3>
+                <!-- social-list -->
+                <ul class="social-list-footer">
+                    <li class="social-item"><a href="" class="social-link-footer">
+                            <svg class="socoal-svg" width="20" height="20">
+                                <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item"><a href="" class="social-link-footer">
+                            <svg class="socoal-svg" width="20" height="20">
+                                <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item"><a href="" class="social-link-footer">
+                            <svg class="socoal-svg" width="20" height="20">
+                                <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item"><a href="" class="social-link-footer">
+                            <svg class="socoal-svg" width="20" height="20">
+                                <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+            <div class="widget-blok">
+                <h3 class="footer-title">Підпишіться на розсилку</h3>
+                <form class="footer-form">
+                    <input type="email" placeholder="E-mail" class="footer-input">
+                    <button type="button" class="footer-btn">підписатися
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
+    </main>
+     <!-- go top -->
+     <div class="go-top go-top-show">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 68 68" fill="none">
+            <rect width="68" height="68" rx="8" fill="#93ABAE" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M26 28.1667L34 19L42 28.1667H35.3856V49H32.6144V28.1667H26Z" fill="#F6F5EF" />
+        </svg>
+    </div>
+    
+    <script src="./js/go-top.js" type="module"></script>
 </body>
 </html>

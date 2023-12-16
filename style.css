@@ -5,9 +5,19 @@ body {
     
 }
 
+/* animation funchion 
+
+  cubic-bezier(0.4, 0, 0.2, 1) */
+
 /* tools */
 li {
     list-style: none;
+}
+
+.body {
+    /* background-image: url(./images/4060613.jpg);
+    width: 100%;
+    height: 100%; */
 }
 
 .list {
@@ -69,6 +79,7 @@ a {
 .link:hover,
 .link:focus {
     color: #2196f3;
+    transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -193,6 +204,7 @@ a {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
 
 .hero-title {
@@ -388,12 +400,14 @@ align-items: center;
     border-radius: 50%;
     fill: #afb1b8;
     background-color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .social-link:hover,
 .social-link:focus {
     background-color: #2196f3;
     fill: #F5F4FA;
+
 }
 
 /* Футер */
@@ -452,13 +466,15 @@ footer > .container {
     height: 100%;
     border-radius: 50%;
     fill: white;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1); 
 }
+
 
 .social-link-footer:hover,
 .social-link-footer:focus {
     fill: #fff;
     background-color: #2196f3;
+    
 }
 
 .footer-title {
@@ -540,6 +556,7 @@ footer > .container {
     background-color: #f5f4fa;
     border-radius: 4px;
     color: #212121;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover,
@@ -586,6 +603,14 @@ gap: 30px;
 
 .portfolio-title {
 margin-top: 20px;
+margin-left: 24px;
+margin-bottom: 4px;
+}
+
+.portfolio-text {
+    color: #000000;
+    margin-left: 24px;
+    margin-bottom: 20px;
 }
 
 
@@ -604,8 +629,19 @@ margin-top: 20px;
     left: 0;
 
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-text {
+    color: #f5f4fa; 
+    width: 322px;
+    height: 163px;
+    font-size: 18px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 63px;
+    margin-bottom: 63px;
 }
 
 .portfolio-link:hover .portfolio-overlay,

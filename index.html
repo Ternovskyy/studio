@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link  href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
     <link rel="stylesheet" href="./style.css">
     <title>web_studio</title>
 </head>
 
-<body>
+<body class="body">
 
     <!-- <svg class="">
     <use href=""></use>
@@ -24,11 +25,11 @@
     <header class="header">
         <div class="container main-nav">
             <nav class="top-navigation">
-                <a href="/" class="logo link"><span class="logo-style">Web</span>Studio</a>
+                <a href="/" class="logo link animate__animated animate__backInLeft"><span class="logo-style">Web</span>Studio</a>
                 <ul class="menu-list list">
-                    <li class="menu-item"><a class="nav link current" href="">Студія</a></li>
-                    <li class="menu-item"></li><a class="nav link" href="./portfolio.html">Портфоліо</a></li>
-                    <li class="menu-item"><a class="nav link" href="">Контакти</a></li>
+                    <li class="menu-item"><a class="nav link current animate__animated animate__backInLeft" href="">Студія</a></li>
+                    <li class="menu-item"></li><a class="nav link animate__animated animate__backInLeft" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="menu-item"><a class="nav link animate__animated animate__backInLeft" href="">Контакти</a></li>
                 </ul>
             </nav>
             <ul class="list-contact list">
@@ -50,8 +51,8 @@
         <!-- Герой -->
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="hero-btn" data-action="open-modal">Замовити послугу</button>
+                <h1 class="hero-title animate__animated animate__backInLeft">Ефективні рішення для вашого бізнесу</h1>
+                <button type="button" class="hero-btn animate__animated animate__backInLeft" data-action="open-modal">Замовити послугу</button>
             </div>
         </section>
         <!-- Наші переваги -->
@@ -271,25 +272,25 @@
                 <!-- social-list -->
                 <ul class="social-list-footer">
                     <li class="social-item"><a href="" class="social-link-footer">
-                            <svg class="socoal-svg" width="20" height="20">
+                            <svg class="socoal-svg link" width="20" height="20">
                                 <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-item"><a href="" class="social-link-footer">
-                            <svg class="socoal-svg" width="20" height="20">
+                            <svg class="socoal-svg link" width="20" height="20">
                                 <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-item"><a href="" class="social-link-footer">
-                            <svg class="socoal-svg" width="20" height="20">
+                            <svg class="socoal-svg link" width="20" height="20">
                                 <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-item"><a href="" class="social-link-footer">
-                            <svg class="socoal-svg" width="20" height="20">
+                            <svg class="socoal-svg link" width="20" height="20">
                                 <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -371,15 +372,16 @@
             </button>
         </div>
     </div>
-    <!-- go top -->
-    <div class="go-top go-top-show">
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 68 68" fill="none">
-            <rect width="68" height="68" rx="8" fill="#93ABAE" />
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M26 28.1667L34 19L42 28.1667H35.3856V49H32.6144V28.1667H26Z" fill="#F6F5EF" />
-        </svg>
+   <!-- кнопка скрол -->
+   <div class="go-top go-top-show">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 68 68" fill="none">
+        <rect width="68" height="68" rx="8" fill=" #2196f3" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M26 28.1667L34 19L42 28.1667H35.3856V49H32.6144V28.1667H26Z" fill="#fff" />
+    </svg>
     </div>
     </main>
+
     <script src="./js/modal.js" type="module"></script>
     <script src="./js/go-top.js" type="module"></script>
 </body>
